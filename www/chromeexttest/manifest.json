@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name":"test",
+  "version":"1.0",
+  "content_scripts":[
+    {
+      "web_accessible_resources": ["train-30.png"],
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": ["jquery-3.4.1.min.js","content.js"]
+    }
+  ]
+}
